@@ -5,8 +5,8 @@ import { PostDetailsPage } from "./postDetailsPage";
 export function Routing() {
     return (
         <Routes>
-            <Route path="/scroll-app/" element={<PostsListPage />} />
-            <Route path="/scroll-app/post/:id" element={<PostDetailsPage />} />
+            <Route path="/" element={<PostsListPage />} />
+            <Route path="/post/:id" element={<PostDetailsPage />} />
         </Routes>
     );
 }
