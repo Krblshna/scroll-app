@@ -7,7 +7,7 @@ export function PostDetailsPage() {
     return (
         <>
             <PostDetails postId={id} />
-            <LinkButton href={"/"} text="назад" />
+            <LinkButton href={"/scroll-app"} text="назад" />
         </>
     );
 }
