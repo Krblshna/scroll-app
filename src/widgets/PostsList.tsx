@@ -56,7 +56,7 @@ export function PostsList() {
             <div style={style}>
                 <div className="post">
                     <PostRow post={post} />
-                    <LinkButton href={`/post/${post.id}`} text="просмотр" />
+                    <LinkButton href={`post/${post.id}`} text="просмотр" />
                 </div>
             </div>
         );
